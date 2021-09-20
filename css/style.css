@@ -1,0 +1,67 @@
+/*
+Color
+#343434 - dark grey
+#2F3061 - dark blue
+#F7FFF7 - ALMOST WHITE
+#A1C6D7 -light blue
+#FFE66D - yellow
+*/
+
+/*Global Styles
+----------------------------------*/
+body{
+    color: #343434;
+}
+img {
+    width: 180px;
+    height: 350px;
+}
+
+a{
+    color: #FFE66D;
+}
+a:hover{
+    text-decoration: none;
+}
+/*Profile
+----------------------------------*/
+header{
+    background:#2F3061 ;
+    color: #F7FFF7;
+}
+
+/*Projects
+----------------------------------*/
+.projects{
+    background: #F7FFF7 ;
+}
+
+.projects a{
+    color: #2F3061;
+}
+.projects .btn{
+    color: #F7FFF7 ;
+    background:#2F3061 ;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.projects .btn:hover{
+   background: rgba(47,48,97, 80%); 
+}
+
+/*Work Experience
+----------------------------------*/
+.work-experince{
+    background: #A1C6D7;
+}
+/*Education
+----------------------------------*/
+
+/*Contact
+----------------------------------*/
+.footer{
+    background: #343434;
+    color: #F7FFF7;
+}
