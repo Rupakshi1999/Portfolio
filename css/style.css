@@ -11,6 +11,9 @@ Color
 ----------------------------------*/
 body{
     color: #343434;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 img {
     width: 180px;
@@ -22,6 +25,18 @@ a{
 }
 a:hover{
     text-decoration: none;
+}
+h2 {
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Caveat', cursive;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 /*Profile
 ----------------------------------*/
@@ -45,6 +60,7 @@ header{
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
+    display: inline-block;
 }
 
 .projects .btn:hover{
