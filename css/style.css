@@ -79,7 +79,6 @@ h1, h2 {
 header{
     background:#2F3061 ;
     color: #F7FFF7;
-    text-align: center;
 }
 
 /*Projects
@@ -107,10 +106,7 @@ header{
 .project-item{
     overflow: hidden;
 }
-.project-item img{
-    float: left;
-    margin-right: 20px;
-}
+
 .project-item h3{
     margin-top: 0;
 }
@@ -120,11 +116,6 @@ header{
     background: #A1C6D7;
 }
 
-.my-job {
-    display: grid;
-    grid-template-columns: 1fr 2fr; /*we need to add gthe gutter to it there i a space between two*/
-    column-gap: 20px; /*this is gutter*/
-}
 /*Education
 ----------------------------------*/
 .education {
@@ -143,14 +134,11 @@ header{
 .footer{
     background: #343434;
     color: #F7FFF7;
-    text-align: center;
 }
 
 .contact-me-list {
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center; /*adding information to center*/
 }
 
 .contact-me-list a{
@@ -162,6 +150,39 @@ header{
 /*media queries for responsiveness 
 ----------------------------------*/
 
-@media screen {
-    
+@media screen and (min-width: 750px){
+    header, footer{
+        text-align: center;
+    }
+    .project-item img{
+        float: left;
+        margin-right: 20px;
+    }
+
+    .my-job {
+        display: grid;
+        grid-template-columns: 1fr 2fr; /*we need to add gthe gutter to it there i a space between two*/
+        column-gap: 20px; /*this is gutter*/
+    }
+
+    .contact-me-list {
+        display: flex;
+        justify-content: center; /*adding information to center*/
+    }
+
+}
+
+@media screen and (max-width: 749px){
+    h1 {
+        font-size: 70px;
+        line-height: 0.7;
+        margin-bottom: 20px;
+    }
+    h2{
+        line-height: 1;
+    }
+
+    .contact-me-list a{
+        padding: 5px;
+    }
 }
