@@ -15,7 +15,7 @@
     <header>
       <div class ="content-wrap">
         <h1>Rupakshi Aggarwal</h1>
-        <h3>Easy name: Rup</h3>
+        <h4>(Easy name: Rup)</h4>
         <h2>Software Engineer, Full stack and Backend</h2>
         <p>Python, Java, JavaScript, JSX, C++, HTML5, CSS</p>
         <p>GitHub/GitLab, ReactJS, Angular, Docker, Unit testing with Java and Pytests, Apache Airflow, Cloud
@@ -25,58 +25,69 @@
 
     <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
     <section class="projects">
-      <div class= "content-wrap">
+      <div class= "content-wrap divide-projects">
         <h2>Featured Projects</h2>
         <p>View selected projects below. More information can be found at <a
             href="https://devpost.com/rupakshiaggarwal?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav">My
             Projects on Devpost</a>.</p>
 
       <!-- Project 1 -->
-        <section>
+        <section class = "project-item">
+          <img src="images\fundit.jpg" alt="A page showing information about a business's investors " width= 180px; height= 350px;>
           <h3>FundIt</h3>
-          <img src="images\fundit.jpg" alt="A page showing information about a business's investors ">
           <p>A platform that democratizes access to capital for small businesses via crowdfunding</p>
           <a class="btn" href="https://devpost.com/software/fundit-4mti2o" target="_blank">View project / case study</a>
         </section>
+      <!-- Project 2 -->
+      <section class = "project-item">
+        <img src="images\visualization.jpeg" alt="A page showing bar graph and line graph of class performance" width= 330px; height=180px;>
+        <h3>EduSpace</h3>
+        <p>Full featured platform to combine time-tracking, communication, collaboration, planner and analyzing tools all in one place so students and professors do not need to spend extra time or money for other platforms.</p>
+        <a class="btn" href="https://devpost.com/software/eduspace-phd1fr" target="_blank">View project</a>
+      </section>
         <!-- End of Project block. -->
       </div>
     </section>
 
     <!-- ***********************  WORK EXPERIENCE  *********************** -->
     <section class="work-experince">
-      <div class= "content-wrap">
+      <div class= "content-wrap item-details divide-projects">
         <h2>Work Experience</h2>
         <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Software Engineering Intern</h3>
-            <p>Flatiron Health</p>
-            <p>May 2021-August 2021</p>
-            <p>Developed an end-to-end solution to help on-call engineers to identify data problems 50% faster</p>
-            <p>Built an Airflow pipeline that automates the process to find and notify about stale data from Flatiron’s
-              internal database</p>
-            <p>Analyized and understood the problems with current methods and build a design doc to find the best solution
-              to overcome these limitations
-            </p>
-            <p>Built an Airflow pipeline that automates the process to find and notify about stale data from Flatiron’s
-              internal database</p>
-            <p>Main technologies Used:</p>
-            <ul>
-              <li>Python</li>
-              <li>Unittesting with pytest</li>
-              <li>Apache Airflow</li>
-              <li>Docker</li>
-              <li>Slack API</li>
-              <li>GitHub/GitLab</li>
-              <li>Amazon s3 for reading and storing data</li>
-            </ul>
+          <section class="my-job">
+            <div class="job-details">
+              <h3>Software Engineering Intern</h3>
+              <p>Flatiron Health</p>
+              <p>May 2021-August 2021</p>
+            </div>
+            <div class="job-summary">
+              <p>Developed an end-to-end solution to help on-call engineers to identify data problems 50% faster</p>
+              <p>Built an Airflow pipeline that automates the process to find and notify about stale data from Flatiron’s
+                internal database</p>
+              <p>Analyized and understood the problems with current methods and build a design doc to find the best solution
+                to overcome these limitations
+              </p>
+              <p>Built an Airflow pipeline that automates the process to find and notify about stale data from Flatiron’s
+                internal database</p>
+              <p>Main technologies Used:</p>
+              <ul>
+                <li>Python</li>
+                <li>Unittesting with pytest</li>
+                <li>Apache Airflow</li>
+                <li>Docker</li>
+                <li>Slack API</li>
+                <li>GitHub/GitLab</li>
+                <li>Amazon s3 for reading and storing data</li>
+              </ul>
+            </div>
         </section>
       </div>
       <!-- End of Job block. -->
     </section>
 
     <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
-    <section>
-      <div class= "content-wrap">
+    <section class="education">
+      <div class= "content-wrap item-details">
         <h2>Education</h2>
 
         <!-- Copy this whole <section> block to add more schools. -->
@@ -102,10 +113,10 @@
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
-        <ul>
-          <li><a href="mailto:rupakshiaggarwal1999@.com">rupakshiaggarwal1999@gmail.com</a></li>
-          <li><a href="http://mywebsite.com" target="_blank">mywebsite.com</a></li>
-          <li><a href="https://www.linkedin.com/in/rupakshi-aggarwal" target="_blank">LinkedIn</a></li>
+        <ul class="contact-me-list">
+          <li><a href="mailto:rupakshiaggarwal1999@.com">Email: rupakshiaggarwal1999@gmail.com</a></li>
+          <li><a href="https://github.com/Rupakshi1999" target="_blank">Vist my github</a></li>
+          <li><a href="https://www.linkedin.com/in/rupakshi-aggarwal" target="_blank">Add me on LinkedIn</a></li>
         </ul>
      </div>
     </footer>
